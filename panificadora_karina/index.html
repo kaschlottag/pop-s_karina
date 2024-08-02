@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop's de Riverdale</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+       
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #212121;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header nav {
+            margin-top: 10px;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .banner {
+            width: 100%;
+            height: auto;
+        }
+        main {
+            padding: 20px;
+        }
+        .principal {
+            text-align: justify;
+        }
+        .utensilios {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .mapa iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        .beneficios {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .conteudo-beneficios {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .lista-beneficios {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-right: 20px;
+        }
+        .itens {
+            margin-bottom: 10px;
+        }
+        .imagem-beneficios {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-left: 20px;
+        }
+        .video {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #212121;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png" alt="Logo Pop's de Riverdale"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img class="banner" src="banner.jpg" alt="Banner Pop's de Riverdale">
+
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Bem-vindo ao Pop's </h2>
+
+            <img class="utensilios" src="utensilios.jpg" alt="Utensílios de cozinha">
+
+            <p>Localizado no , o <strong>Pop's </strong> traz o melhor da gastronomia . Fundado em 2018, o nosso restaurante já é um sucesso e conquista novos clientes todos os dias.</p>
+
+            <p id="missao"><em>Nossa missão é: <strong>"Oferecer uma experiência única e deliciosa "</strong>.</em></p>
+
+            <p>Contamos com chefs especializados e antenados nas últimas tendências gastronômicas. Nosso atendimento é marcado pela excelência e agilidade, garantindo a qualidade e satisfação dos nossos clientes.</p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso endereço</h3>
+            <p>Estamos localizados no centro da cidade.</p>
+
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </section>
+
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
+                    <li class="itens">Ambiente temático</li>
+                    <li class="itens">Cardápio exclusivo</li>
+                    <li class="itens">Localização central</li>
+                    <li class="itens">Chef renomado</li>
+                    <li class="itens">Atendimento personalizado</li>
+                    <li class="itens">Higiene impecável</li>
+                </ul>
+                <img src="beneficios.jpg" class="imagem-beneficios" alt="Benefícios do Pop's de Riverdale">
+            </div>
+
+            <div class="video">
+                
+        </section>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png" alt="Logo Pop's ">
+        <p class="copyright">&copy; Copyright Pop's - 2018</p>
+    </footer>
+</body>
+</html>
